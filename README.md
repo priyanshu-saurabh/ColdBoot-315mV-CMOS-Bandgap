@@ -18,11 +18,19 @@ The design is particularly suited for:
 ---
 
 ##  Key Features  
-- **Sub-1 V operation** (compatible with modern scaled CMOS technologies)  
-- **High PSRR** – robust against supply fluctuations  
-- **Temperature stability** across a wide operating range  
-- **Energy-efficient** architecture tailored for low-power circuits  
-- **Compact area** optimized for integration in SoCs  
+-Reference voltage: 315 mV
+-Supply range: 1.0 V – 5.0 V
+-Temperature coefficient: ≈ 15 ppm/°C (−40 °C to 125 °C)
+-PSRR: ≈ 60 dB (low frequency)
+-Architecture: MOS-only, OTA-free, resistor-free
+-Operation region: Weak to moderate inversion
+-Startup: Fully autonomous cold-boot
+-Power consumption: Low-µW range
+**Applications**
+-Energy-harvesting PMUs
+-Ultra-low-power sensor interfaces
+-Mixed-signal SoCs
+-Batteryless and intermittent-power IoT nodes
 
 ---
 
