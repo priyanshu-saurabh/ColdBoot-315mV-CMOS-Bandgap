@@ -1,7 +1,5 @@
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+# 315 mV CMOS Reference With Autonomous Cold-Boot
 
-#  Self-Biased 0.5 V CMOS Bandgap
-**Sub-0.5 V CMOS Bandgap Reference with High PSRR**
 
 ---
 
@@ -18,19 +16,19 @@ The design is particularly suited for:
 ---
 
 ##  Key Features  
--Reference voltage: 315 mV
--Supply range: 1.0 V – 5.0 V
--Temperature coefficient: ≈ 15 ppm/°C (−40 °C to 125 °C)
--PSRR: ≈ 60 dB (low frequency)
--Architecture: MOS-only, OTA-free, resistor-free
--Operation region: Weak to moderate inversion
--Startup: Fully autonomous cold-boot
--Power consumption: Low-µW range
+- Reference voltage: 315 mV
+- Supply range: 1.0 V – 5.0 V
+- Temperature coefficient: ≈ 15 ppm/°C (−40 °C to 125 °C)
+- PSRR: ≈ 60 dB (low frequency)
+- Architecture: MOS-only, OTA-free, resistor-free
+- Operation region: Weak to moderate inversion
+- Startup: Fully autonomous cold-boot
+- Power consumption: Low-µW range
 **Applications**
--Energy-harvesting PMUs
--Ultra-low-power sensor interfaces
--Mixed-signal SoCs
--Batteryless and intermittent-power IoT nodes
+- Energy-harvesting PMUs
+- Ultra-low-power sensor interfaces
+- Mixed-signal SoCs
+- Batteryless and intermittent-power IoT nodes
 
 ---
 
