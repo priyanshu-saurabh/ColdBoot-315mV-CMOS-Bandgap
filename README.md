@@ -24,6 +24,7 @@ The design is particularly suited for:
 6. Operation region: Weak to moderate inversion
 7. Startup: Fully autonomous cold-boot
 8. Power consumption: Low-µW range
+
 **Applications**
 - Energy-harvesting PMUs
 - Ultra-low-power sensor interfaces
