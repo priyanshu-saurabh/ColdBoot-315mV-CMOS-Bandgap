@@ -16,14 +16,14 @@ The design is particularly suited for:
 ---
 
 ##  Key Features  
-- Reference voltage: 315 mV
-- Supply range: 1.0 V – 5.0 V
-- Temperature coefficient: ≈ 15 ppm/°C (−40 °C to 125 °C)
-- PSRR: ≈ 60 dB (low frequency)
-- Architecture: MOS-only, OTA-free, resistor-free
-- Operation region: Weak to moderate inversion
-- Startup: Fully autonomous cold-boot
-- Power consumption: Low-µW range
+1. Reference voltage: 315 mV
+2. Supply range: 1.0 V – 5.0 V
+3. Temperature coefficient: ≈ 15 ppm/°C (−40 °C to 125 °C)
+4. PSRR: ≈ 60 dB (low frequency)
+5. Architecture: MOS-only, OTA-free, resistor-free
+6. Operation region: Weak to moderate inversion
+7. Startup: Fully autonomous cold-boot
+8. Power consumption: Low-µW range
 **Applications**
 - Energy-harvesting PMUs
 - Ultra-low-power sensor interfaces
