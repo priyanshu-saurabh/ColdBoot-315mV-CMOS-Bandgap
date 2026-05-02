@@ -1,6 +1,6 @@
 # 315 mV MOS Only Voltage Reference for Low Power Systems
 
-This repository presents the complete development flow of a compact CMOS voltage reference designed for ultra low power and energy constrained applications. The project implements a fully MOS based reference architecture capable of generating a stable 315 mV output while operating across a wide supply range from 1 V to 5 V.
+This repository presents the complete development flow of a compact CMOS voltage reference designed for ultra low power and energy constrained applications. The project implements a fully MOS based reference architecture capable of generating a stable 315 mV output while operating across a wide supply range from 1 V to 3.3 V.
 
 The circuit is built using PTAT and CTAT behavior generated entirely from MOS transistors operating in weak and moderate inversion. A wide swing cascode current mirror is used to improve output resistance, supply rejection, and current scaling accuracy while maintaining low voltage operation.
 
@@ -9,7 +9,7 @@ One of the important characteristics of this design is its natural cold boot cap
 ## Main Highlights
 
 • 315 mV stable reference output  
-• Wide supply operation from 1 V to 5 V  
+• Wide supply operation from 1 V to 3.3 V  
 • Fully MOS based architecture  
 • Approximately 15 ppm per degree Celsius temperature coefficient  
 • Around 60 dB low frequency PSRR  
