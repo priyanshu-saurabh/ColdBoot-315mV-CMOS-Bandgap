@@ -1,51 +1,21 @@
-# 315 mV CMOS Reference With Autonomous Cold-Boot
+# 315 mV MOS Only Voltage Reference for Low Power Systems
+
+This repository presents the complete development flow of a compact CMOS voltage reference designed for ultra low power and energy constrained applications. The project implements a fully MOS based reference architecture capable of generating a stable 315 mV output while operating across a wide supply range from 1 V to 5 V.
+
+The circuit is built using PTAT and CTAT behavior generated entirely from MOS transistors operating in weak and moderate inversion. A wide swing cascode current mirror is used to improve output resistance, supply rejection, and current scaling accuracy while maintaining low voltage operation.
+
+One of the important characteristics of this design is its natural cold boot capability. Since weak inversion conduction exists even at very low voltages, the circuit starts autonomously during both slow and fast supply ramps without requiring any external startup circuitry.
+
+## Main Highlights
+
+• 315 mV stable reference output  
+• Wide supply operation from 1 V to 5 V  
+• Fully MOS based architecture  
+• Approximately 15 ppm per degree Celsius temperature coefficient  
+• Around 60 dB low frequency PSRR  
+• Autonomous startup capability  
+• Optimized for low power mixed signal and energy harvesting systems  
 
 
----
 
-## Overview  
-NanoVolt-BGR is a **low-voltage CMOS bandgap reference (BGR)** designed to operate at **supply voltages below 1 V** while maintaining **high power supply rejection ratio (PSRR)**.  
-This project provides a **stable, precise, and energy-efficient voltage reference** for analog and mixed-signal integrated circuits operating under **strict power constraints**.
-
-The design is particularly suited for:  
-- Ultra-low power systems  
-- Energy-constrained sensor nodes  
-- Mixed-signal SoCs  
-- Next-generation analog front-ends  
-
----
-
-##  Key Features  
-1. Reference voltage: 315 mV
-2. Supply range: 1.0 V – 5.0 V
-3. Temperature coefficient: ≈ 15 ppm/°C (−40 °C to 125 °C)
-4. PSRR: ≈ 60 dB (low frequency)
-5. Architecture: MOS-only, OTA-free, resistor-free
-6. Operation region: Weak to moderate inversion
-7. Startup: Fully autonomous cold-boot
-8. Power consumption: Low-µW range
-
-**Applications**
-- Energy-harvesting PMUs
-- Ultra-low-power sensor interfaces
-- Mixed-signal SoCs
-- Batteryless and intermittent-power IoT nodes
-
----
-
-## Design Methodology  
-Will be updated  
-
----
-
-##  Results  
-
----
-
-## 📂 Repository Structure  
-```plaintext
-├── schematics/        # Cadence schematic files  
-├── layout/            # Layout files and DRC/LVS reports  
-├── simulations/       # Testbench and simulation results  
-├── docs/              # Design notes, plots, and analysis  
-└── README.md          # Project documentation  
+This project focuses on reliable low voltage reference generation for modern analog and mixed signal integrated systems where power efficiency, startup robustness, and compact implementation are critical.
