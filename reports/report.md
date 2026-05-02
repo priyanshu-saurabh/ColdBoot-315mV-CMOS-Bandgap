@@ -19,7 +19,7 @@ This confirms reliable startup operation for battery powered and energy harvesti
 
 ---
 
-![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/fast_startupvst.png)
+![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/FastRamp.png)
 
 The fast ramp startup waveform illustrates the transient relationship between VDD and VREF. The reference begins conducting at very low voltage levels and quickly stabilizes near 315 mV once sufficient headroom is available.
 
@@ -27,7 +27,7 @@ The response validates the amplifier free architecture and confirms stable start
 
 ---
 
-![Figure](
+![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/Slowstartup.png)
 
 The slow ramp transient analysis demonstrates robust startup during gradual supply increase conditions. Even under slow voltage ramps, the reference voltage tracks predictably and settles smoothly toward the nominal output level.
 
@@ -47,7 +47,7 @@ This performance is achieved using a wide swing cascode current mirror structure
 
 ### Supply Voltage Sweep Characteristics
 
-![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/Trans_resp.png)
+![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/Allnode.png)
 
 The DC supply sweep validates stable operation across a wide operating range. As the supply voltage increases from near zero to higher values, the reference output gradually settles and stabilizes near 315 mV.
 
@@ -57,7 +57,7 @@ The circuit begins self biasing at low voltages due to subthreshold conduction a
 
 ### PTAT Characteristics
 
-![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/ptat_ctat_temp.png)
+![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/ptat_ctat.png)
 
 The PTAT waveform shows a positive temperature dependence, increasing gradually as temperature rises. This behavior originates from weak inversion MOS operation where thermal voltage contributes directly to PTAT generation.
 
@@ -67,7 +67,7 @@ The generated PTAT component compensates the negative temperature slope of the C
 
 ### CTAT Characteristics
 
-![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/ptat_ctat_temp.png)
+![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/ptat_ctat.png)
 
 The CTAT simulation exhibits the expected negative temperature coefficient. As temperature increases, the CTAT voltage decreases gradually because of threshold voltage variation in the MOS devices.
 
@@ -77,7 +77,7 @@ This complementary temperature behavior is combined with the PTAT branch to mini
 
 ### Temperature Stability of VREF
 
-![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/Temp_VAR.png)
+![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/Vref.png)
 
 The temperature sweep of the final reference voltage confirms highly stable operation across the complete temperature range. The variation in output voltage remains extremely small from low to high temperatures.
 
