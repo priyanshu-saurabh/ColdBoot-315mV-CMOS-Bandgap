@@ -11,14 +11,6 @@ The startup waveform confirms that weak inversion conduction naturally establish
 
 ---
 
-![Figure `Cold_boot.png`
-
-The cold boot response under varying supply conditions shows monotonic settling of the reference voltage during both rising and falling supply transitions. The circuit maintains stable behavior without oscillation or startup failure.
-
-This confirms reliable startup operation for battery powered and energy harvesting systems where slow and intermittent supply ramps are common.
-
----
-
 ![Figure](https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/FastRamp.png)
 
 The fast ramp startup waveform illustrates the transient relationship between VDD and VREF. The reference begins conducting at very low voltage levels and quickly stabilizes near 315 mV once sufficient headroom is available.
