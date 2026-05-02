@@ -3,7 +3,7 @@
 
 ### Cold Start and Autonomous Startup Behavior
 
-#### Figure: `bandgap_coldstart.png`
+#### Figure: `Cold_boot_concept.jpeg`
 
 The transient startup results demonstrate the autonomous cold boot capability of the proposed MOS only reference generator. During power ramp conditions, the reference voltage rises smoothly without any external startup circuitry or bias assist network.
 
@@ -37,7 +37,7 @@ This behavior is important for energy harvesting applications where supply volta
 
 ### PSRR Performance
 
-#### Figure: `psrr_vs_frequency.png`
+#### Figure: `psrrvsfreqedit.png`
 
 The PSRR simulation shows strong low frequency supply rejection close to 60 dB. The response remains relatively flat across lower frequencies before gradually rolling off at higher frequencies.
 
@@ -47,7 +47,7 @@ This performance is achieved using a wide swing cascode current mirror structure
 
 ### Supply Voltage Sweep Characteristics
 
-#### Figure: `sweep.png`
+#### Figure: `Trans_resp.png`
 
 The DC supply sweep validates stable operation across a wide operating range. As the supply voltage increases from near zero to higher values, the reference output gradually settles and stabilizes near 315 mV.
 
@@ -57,7 +57,7 @@ The circuit begins self biasing at low voltages due to subthreshold conduction a
 
 ### PTAT Characteristics
 
-#### Figure: `Vptat.png`
+#### Figure: `ptat_ctat_temp.png`
 
 The PTAT waveform shows a positive temperature dependence, increasing gradually as temperature rises. This behavior originates from weak inversion MOS operation where thermal voltage contributes directly to PTAT generation.
 
@@ -67,7 +67,7 @@ The generated PTAT component compensates the negative temperature slope of the C
 
 ### CTAT Characteristics
 
-#### Figure: `Vctat.png`
+#### Figure: `ptat_ctat_temp.png`
 
 The CTAT simulation exhibits the expected negative temperature coefficient. As temperature increases, the CTAT voltage decreases gradually because of threshold voltage variation in the MOS devices.
 
@@ -77,7 +77,7 @@ This complementary temperature behavior is combined with the PTAT branch to mini
 
 ### Temperature Stability of VREF
 
-#### Figure: `vref_temp_var.png`
+#### Figure: `Temp_VAR.png`
 
 The temperature sweep of the final reference voltage confirms highly stable operation across the complete temperature range. The variation in output voltage remains extremely small from low to high temperatures.
 
