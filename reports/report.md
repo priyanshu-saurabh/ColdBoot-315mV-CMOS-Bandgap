@@ -3,7 +3,7 @@
 
 ### Cold Start and Autonomous Startup Behavior
 
-#### Figure: `Cold_boot_concept.jpeg`
+#### Figure: `https://github.com/priyanshu-saurabh/ColdBoot-315mV-CMOS-Bandgap/blob/main/reports/Cold_boot_concept.jpeg`
 
 The transient startup results demonstrate the autonomous cold boot capability of the proposed MOS only reference generator. During power ramp conditions, the reference voltage rises smoothly without any external startup circuitry or bias assist network.
 
