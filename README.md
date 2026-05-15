@@ -14,7 +14,7 @@ One of the important characteristics of this design is its natural cold boot cap
 • Approximately 15 ppm per degree Celsius temperature coefficient  
 • Around 60 dB low frequency PSRR  
 • Autonomous startup capability  
-• Optimized for low power mixed signal and energy harvesting systems  
+• Optimized for low power mixed signal and energy harvesting systems  .
 
 
 
